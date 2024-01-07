@@ -11,7 +11,7 @@ const Bar = ({ marks }) => {
 
   return (
     <div
-      className={marks >= 33 ? "green bar" : "red bar"}
+      className={`${marks >= 33 ? "green " : "red "} bar`}
       style={{ width: `${marks}%` }}
     ></div>
   );
